@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: rgb(22, 22, 22);
+    width: 100%;
+    min-height: 700px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-list a:hover { 
+    text-decoration: underline orange;
+    font-weight: bold;
+}
+
+/* KONTENT TARTIBI */
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    max-width: 447px;
+    color: white;
+}
+
+.left h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.left h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.left a.btn {
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 200px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.left a.btn:hover {
+    background: white;
+    color: orange;
+    border: 1px solid orange;
+    transform: scale(1.05);
+}
+
+.right {
+    position: relative;
+    width: 550px;
+    height: 550px;
+}
+
+.rounded {
+    position: absolute;
+    width: 750px; 
+    height: 750px;
+     margin-top: -100px;
+    left: 0;
+    border-radius: 50%;
+    background-image: url("radius.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.rounded img {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 200px; 
+    left: 200px;
+    z-index: 2;
+}
+.content-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section{
+    background: linear-gradient(to right,#414141, #2D2D2D);
+    
+}
